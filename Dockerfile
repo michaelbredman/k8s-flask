@@ -12,4 +12,4 @@ RUN pip3 install Flask
 # Expose the Docker container for the application to run on port 5000
 EXPOSE 5000
 # The command required to run the Dockerized application
-CMD ["python", "/app/app.py"]
+CMD ["python3", "/app/app/app.py"]
