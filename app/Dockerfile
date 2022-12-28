@@ -7,7 +7,7 @@ WORKDIR /app
 # Copying all the application files to the working directory
 COPY . .
 # Install all the dependencies required to run the Flask application
-RUN pip3 install -r requirements.txt
+RUN pip3 install Flask
 
 # Expose the Docker container for the application to run on port 5000
 EXPOSE 5000
