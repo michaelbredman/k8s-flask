@@ -15,6 +15,7 @@ spec:
       containers:
       - name: test-app
         image: docker.io/mredman/flask-kubernetes:latest
+        imagePullPolicy: Always
         resources:
           limits:
             memory: "128Mi"
