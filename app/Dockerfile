@@ -13,4 +13,4 @@ RUN pip3 install Flask
 EXPOSE 5000
 
 # The command required to run the Dockerized application
-CMD ["python3", "/app/app.py"]
+CMD ["python3", "/app/app/app.py"]
