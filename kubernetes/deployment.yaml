@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: test-app
-        image: docker.io/mredman/flask-kubernetes:8
+        image: docker.io/mredman/flask-kubernetes:9
         imagePullPolicy: Always
         resources:
           limits:
